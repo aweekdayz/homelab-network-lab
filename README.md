@@ -1,6 +1,6 @@
 # Homelab and Network Lab
 
-This repository presents a personal network and systems environment built around an Intel N100 x86 host. It focuses on the architecture, technologies, and performance characteristics of systems that I maintain myself.
+This repository presents a personal network and systems environment built around an Intel N100 x86 host. It focuses on the architecture and technologies of systems that I maintain myself.
 
 ## Architecture
 
@@ -25,13 +25,8 @@ flowchart TD
 - OpenMediaVault and Linux container services
 - SSH and command-line administration for deployment, routine maintenance, and configuration validation
 
-## Performance and Experimentation
-
-The environment is used to study multi-gigabit networking, routing behavior, remote-access patterns, DNS policy, and service isolation. Performance work compares throughput, loaded latency, jitter, and packet loss across different endpoints and routes.
-
 ## Repository Scope
 
 - `architecture.md` - hardware, virtual machines, and service relationships
 - `configuration/` - sanitized configuration patterns and design decisions
 - `operations/` - maintenance notes and validation procedures
-- `tests/` - performance-test methods and observations
